@@ -29,7 +29,7 @@ COPY bin/install-firefox.sh /usr/local/bin/install-firefox
 COPY bin/install-geckodriver.sh /usr/local/bin/install-geckodriver
 
 # Change target versions via --build-arg
-ARG FIREFOX_VERSION="59.0"
+ARG FIREFOX_VERSION="60.0"
 ARG GECKODRIVER_VERSION="0.20.0"
 ARG PIPENV_VERSION="11.10.4"
 
